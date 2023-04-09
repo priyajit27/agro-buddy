@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Stack, Button, Grid, TextField, Container, Box } from '@mui/material';
 import Banner from '../../../../components/general/img/Banner';
 import './Hero.css';
-
+import SignUp from '../../../../components/forms/SignUp';
 
 function Hero() {
   return (
@@ -11,7 +11,6 @@ function Hero() {
         <Grid display='flex' flexDirection='column' alignItems='start' justifyContent='center' paddingLeft='100px' item md={6} sm={6} xs={12}  >
           <Typography
             fontWeight={700}
-            color='#213547'
             textAlign='left'
             sx={{ fontSize: { lg: '3rem', xs: '2.5rem' } }}
           >
@@ -20,13 +19,13 @@ function Hero() {
           <Typography
             fontSize='1rem'
             fontWeight={500}
-            color='#213547'
             textAlign='left'
             sx={{ lineHeight: { lg: '60px', xs: '80px' }, fontSize: { lg: '1rem', xs: '0.8rem' } }}
           >
             we believe Future of Food is here
           </Typography>
-          <Button variant='contained'>Sign Up</Button>
+          {/* <Button variant='contained'>Sign Up</Button> */}
+          <SignUp />
         </Grid>
         <Grid
           sx={{ paddingLeft: { lg: '120px' } }}
