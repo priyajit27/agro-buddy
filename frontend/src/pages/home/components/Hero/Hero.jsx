@@ -6,7 +6,7 @@ import SignUp from '../../../../components/forms/SignUp';
 
 function Hero() {
   return (
-    <Box paddingTop='80px' >
+    <Box paddingTop='80px'>
       <Grid container rowSpacing='30px'>
         <Grid display='flex' flexDirection='column' alignItems='start' justifyContent='center' paddingLeft='100px' item md={6} sm={6} xs={12}  >
           <Typography

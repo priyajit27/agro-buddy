@@ -12,7 +12,7 @@ import SignUp from '../../components/forms/SignUp';
 function Home() {
   return (
     <div>
-      <Hero />
+      <Hero/>
     </div>
   )
 }

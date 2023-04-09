@@ -14,13 +14,14 @@ const Fotter = () => {
     return (
         <Box
             sx={{
-                position: 'fixed',
+                // position: 'fixed',
                 left: 0,
                 width: "100%",
                 height: "auto",
                 paddingTop: "1rem",
+                marginTop:"10rem",
                 paddingBottom: "1rem",
-                bottom: '80px'
+                bottom: '80px',
             }}
         >
             <Container maxWidth="lg" >
